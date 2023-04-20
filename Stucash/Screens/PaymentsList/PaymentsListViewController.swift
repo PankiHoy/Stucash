@@ -50,7 +50,6 @@ final class PaymentsListViewController: UIViewController,
         self.cardImage = SmallCardView()
         self.cardImage.isUserInteractionEnabled = false
         self.cardImage.backgroundColor = UIColor.stucashGold
-        self.cardImage.layer.cornerRadius = 12.0
         
         self.balanceView = UILabel()
         self.balanceView.isUserInteractionEnabled = false

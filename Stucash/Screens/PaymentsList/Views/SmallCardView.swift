@@ -30,6 +30,8 @@ final class SmallCardView: UIView {
         self.iconView.tintColor = UIColor.stucashBlack
         
         super.init(frame: .zero)
+        
+        self.layer.cornerRadius = 12.0
     }
     
     required init?(coder: NSCoder) {
