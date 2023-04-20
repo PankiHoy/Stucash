@@ -13,10 +13,52 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+                
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let tabBarController = UITabBarController()
+        let appearance = UITabBarAppearance()
+        appearance.backgroundColor = UIColor.stucashBlack
+        tabBarController.tabBar.tintColor = UIColor.stucashGold
+        tabBarController.tabBar.backgroundColor = UIColor.stucashBlack
+        tabBarController.tabBar.unselectedItemTintColor = UIColor.gray
+        tabBarController.tabBar.standardAppearance = appearance
+        
+        let mainController = CardShowcaseAssembly.build(
+            networkData: CardShocaseNetworkData(
+                accountId: "",
+                productType: ""
+            )
+        )
+        let mainNavigationController = UINavigationController(rootViewController: mainController)
+        mainNavigationController.tabBarItem.title = "Home"
+        mainNavigationController.tabBarItem.image = UIImage(systemName: "house")!
+        
+        let historyController = OperationsHistoryAssembly.build(
+            networkData: OperationsHistoryNetworkData(
+                accountId: ""
+            )
+        )
+        let historyNavigationController = UINavigationController(rootViewController: historyController)
+        historyNavigationController.tabBarItem.title = "History"
+        historyNavigationController.tabBarItem.image = UIImage(systemName: "clock")!
+        
+        let paymentsController = PaymentsListAssembly.build(
+            networkData: PaymentsListNetworkData(
+                accountId: ""
+            )
+        )
+        let paymentsNavigationController = UINavigationController(rootViewController: paymentsController)
+        paymentsNavigationController.tabBarItem.title = "Payments"
+        paymentsNavigationController.tabBarItem.image = UIImage(systemName: "cart")!
+        
+        tabBarController.viewControllers = [mainNavigationController, historyNavigationController, paymentsNavigationController]
+        
+        self.window?.rootViewController = tabBarController
+        
+        window?.makeKeyAndVisible()
+        window?.windowScene = windowScene
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

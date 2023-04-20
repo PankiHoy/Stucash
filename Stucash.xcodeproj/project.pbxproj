@@ -7,23 +7,206 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B352B1D229EC936C00748719 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B352B1C829EC936C00748719 /* BebasNeue-Regular.ttf */; };
+		B352B1D829ECAF8200748719 /* StucashTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1D729ECAF8200748719 /* StucashTableView.swift */; };
+		B352B1DC29EDC37A00748719 /* OperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1DB29EDC37A00748719 /* OperationCell.swift */; };
+		B352B1E329EE1F7E00748719 /* OperationsHistoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1E229EE1F7E00748719 /* OperationsHistoryAssembly.swift */; };
+		B352B1E529EE1F8700748719 /* OperationsHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1E429EE1F8700748719 /* OperationsHistoryInteractor.swift */; };
+		B352B1E729EE1F9000748719 /* OperationsHistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1E629EE1F9000748719 /* OperationsHistoryPresenter.swift */; };
+		B352B1E929EE1F9800748719 /* OperationsHistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1E829EE1F9800748719 /* OperationsHistoryRouter.swift */; };
+		B352B1EB29EE1FA000748719 /* OperationsHistoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1EA29EE1FA000748719 /* OperationsHistoryProtocols.swift */; };
+		B352B1ED29EE1FAE00748719 /* OperationsHistoryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1EC29EE1FAE00748719 /* OperationsHistoryWorker.swift */; };
+		B352B1EF29EE1FB800748719 /* OperationsHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1EE29EE1FB800748719 /* OperationsHistoryViewController.swift */; };
+		B352B1F129EE1FBF00748719 /* OperationsHistoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1F029EE1FBF00748719 /* OperationsHistoryModels.swift */; };
+		B352B1F429EE209600748719 /* OperationsHistoryNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1F329EE209600748719 /* OperationsHistoryNetworkData.swift */; };
+		B352B1F629EE20EB00748719 /* OperationsHistoryNetworkDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1F529EE20EB00748719 /* OperationsHistoryNetworkDataProtocol.swift */; };
+		B352B1F829EE211000748719 /* OperationsHistoryNetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1F729EE211000748719 /* OperationsHistoryNetworkModels.swift */; };
+		B352B1FA29EE236300748719 /* OperationsHistoryNetworkEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1F929EE236300748719 /* OperationsHistoryNetworkEndpoint.swift */; };
+		B352B1FD29EEF1C100748719 /* PaymentsListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1FC29EEF1C100748719 /* PaymentsListAssembly.swift */; };
+		B352B1FF29EEF1C900748719 /* PaymentsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B1FE29EEF1C900748719 /* PaymentsListInteractor.swift */; };
+		B352B20129EEF1D100748719 /* PaymentsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B20029EEF1D100748719 /* PaymentsListPresenter.swift */; };
+		B352B20329EEF1DA00748719 /* PaymentsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B20229EEF1DA00748719 /* PaymentsListRouter.swift */; };
+		B352B20529EEF1E600748719 /* PaymentsListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B20429EEF1E600748719 /* PaymentsListProtocols.swift */; };
+		B352B20729EEF1EE00748719 /* PaymentsListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B20629EEF1EE00748719 /* PaymentsListWorker.swift */; };
+		B352B20929EEF1F900748719 /* PaymentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B20829EEF1F900748719 /* PaymentsListViewController.swift */; };
+		B352B20B29EEF20200748719 /* PaymentsListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B20A29EEF20200748719 /* PaymentsListModels.swift */; };
+		B352B20E29EEF38D00748719 /* PaymentsListNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B20D29EEF38D00748719 /* PaymentsListNetworkData.swift */; };
+		B352B21029EEF39D00748719 /* PaymentsListNetworkDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B20F29EEF39D00748719 /* PaymentsListNetworkDataProtocol.swift */; };
+		B352B21229EEF3A500748719 /* PaymentsListNetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B21129EEF3A500748719 /* PaymentsListNetworkModels.swift */; };
+		B352B21429EEF3B300748719 /* PaymentsListNetworkEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B21329EEF3B300748719 /* PaymentsListNetworkEndpoint.swift */; };
+		B352B21729EF406900748719 /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B21629EF406900748719 /* PaymentCell.swift */; };
+		B352B21A29EF469A00748719 /* OperationDetailsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B21929EF469A00748719 /* OperationDetailsAssembly.swift */; };
+		B352B21C29EF46A100748719 /* OperationDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B21B29EF46A100748719 /* OperationDetailsInteractor.swift */; };
+		B352B21E29EF46A800748719 /* OperationDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B21D29EF46A800748719 /* OperationDetailsPresenter.swift */; };
+		B352B22029EF46B100748719 /* OperationDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B21F29EF46B100748719 /* OperationDetailsRouter.swift */; };
+		B352B22229EF46BD00748719 /* OperationDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B22129EF46BD00748719 /* OperationDetailsProtocols.swift */; };
+		B352B22429EF46CC00748719 /* OperationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B22329EF46CC00748719 /* OperationDetailsViewController.swift */; };
+		B352B22629EF46D300748719 /* OperationDetailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B22529EF46D300748719 /* OperationDetailsModels.swift */; };
+		B352B22929EF6DF200748719 /* OperationDetailsNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B22829EF6DF200748719 /* OperationDetailsNetworkData.swift */; };
+		B352B22B29EF6E2B00748719 /* OperationDetailsNetworkDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B22A29EF6E2B00748719 /* OperationDetailsNetworkDataProtocol.swift */; };
+		B352B22D29EF6E5500748719 /* OperationDetailsNetworkEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B22C29EF6E5500748719 /* OperationDetailsNetworkEndpoint.swift */; };
+		B352B22F29EF6EA900748719 /* OperationDetailsNetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B22E29EF6EA900748719 /* OperationDetailsNetworkModels.swift */; };
+		B352B23129EF74E300748719 /* OperationDetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B23029EF74E300748719 /* OperationDetailsWorker.swift */; };
+		B352B25C29EF8BAD00748719 /* QRReaderWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B24F29EF8BAD00748719 /* QRReaderWorker.swift */; };
+		B352B25D29EF8BAD00748719 /* QRReaderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25029EF8BAD00748719 /* QRReaderRouter.swift */; };
+		B352B25E29EF8BAD00748719 /* QRReaderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25129EF8BAD00748719 /* QRReaderModels.swift */; };
+		B352B25F29EF8BAD00748719 /* QRReaderProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25229EF8BAD00748719 /* QRReaderProtocols.swift */; };
+		B352B26029EF8BAD00748719 /* QRReaderNetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25429EF8BAD00748719 /* QRReaderNetworkModels.swift */; };
+		B352B26129EF8BAD00748719 /* QRReaderNetworkEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25529EF8BAD00748719 /* QRReaderNetworkEndpoint.swift */; };
+		B352B26229EF8BAD00748719 /* QRReaderNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25629EF8BAD00748719 /* QRReaderNetworkData.swift */; };
+		B352B26329EF8BAD00748719 /* QRReaderNetworkDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25729EF8BAD00748719 /* QRReaderNetworkDataProtocol.swift */; };
+		B352B26429EF8BAD00748719 /* QRReaderAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25829EF8BAD00748719 /* QRReaderAssembly.swift */; };
+		B352B26529EF8BAD00748719 /* QRReaderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25929EF8BAD00748719 /* QRReaderPresenter.swift */; };
+		B352B26629EF8BAD00748719 /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25A29EF8BAD00748719 /* QRReaderViewController.swift */; };
+		B352B26729EF8BAD00748719 /* QRReaderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352B25B29EF8BAD00748719 /* QRReaderInteractor.swift */; };
 		B39B66C829EB574200DB37D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66C729EB574200DB37D0 /* AppDelegate.swift */; };
 		B39B66CA29EB574200DB37D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66C929EB574200DB37D0 /* SceneDelegate.swift */; };
-		B39B66CC29EB574200DB37D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66CB29EB574200DB37D0 /* ViewController.swift */; };
-		B39B66CF29EB574200DB37D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39B66CD29EB574200DB37D0 /* Main.storyboard */; };
 		B39B66D129EB574300DB37D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39B66D029EB574300DB37D0 /* Assets.xcassets */; };
-		B39B66D429EB574300DB37D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39B66D229EB574300DB37D0 /* LaunchScreen.storyboard */; };
+		B39B66E129EB5BE200DB37D0 /* CardShowcaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66E029EB5BE200DB37D0 /* CardShowcaseAssembly.swift */; };
+		B39B66E329EB5BEC00DB37D0 /* CardShowcaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66E229EB5BEC00DB37D0 /* CardShowcaseInteractor.swift */; };
+		B39B66E529EB5BF600DB37D0 /* CardShowcasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66E429EB5BF600DB37D0 /* CardShowcasePresenter.swift */; };
+		B39B66E729EB5C0500DB37D0 /* CardShowcaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66E629EB5C0500DB37D0 /* CardShowcaseRouter.swift */; };
+		B39B66E929EB5C0C00DB37D0 /* CardShowcaseProcotols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66E829EB5C0C00DB37D0 /* CardShowcaseProcotols.swift */; };
+		B39B66EB29EB5C1600DB37D0 /* CardShowcaseWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66EA29EB5C1600DB37D0 /* CardShowcaseWorker.swift */; };
+		B39B66ED29EB5C1E00DB37D0 /* CardShowcaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66EC29EB5C1E00DB37D0 /* CardShowcaseViewController.swift */; };
+		B39B66EF29EB5C2900DB37D0 /* CardShowcaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66EE29EB5C2900DB37D0 /* CardShowcaseModels.swift */; };
+		B39B66F129EB602D00DB37D0 /* CardShowcaseNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66F029EB602D00DB37D0 /* CardShowcaseNetworkData.swift */; };
+		B39B66F329EB605600DB37D0 /* CardShowcaseNetworkDataProtocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66F229EB605600DB37D0 /* CardShowcaseNetworkDataProtocol .swift */; };
+		B39B66F529EB60B700DB37D0 /* CardShowcaseNetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66F429EB60B700DB37D0 /* CardShowcaseNetworkModels.swift */; };
+		B39B66F729EB6BDE00DB37D0 /* CardShowcaseNetworkEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66F629EB6BDE00DB37D0 /* CardShowcaseNetworkEndpoint.swift */; };
+		B39B66FA29EB6D0700DB37D0 /* EndpointConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B66F929EB6D0700DB37D0 /* EndpointConfig.swift */; };
+		B39B66FE29EB7D5C00DB37D0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B39B66FD29EB7D5C00DB37D0 /* Alamofire */; };
+		B3CA5BCC29EC5DB90008E445 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA5BCB29EC5DB90008E445 /* CardView.swift */; };
+		B3CA5BD129EC8E7C0008E445 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA5BD029EC8E7C0008E445 /* UIColor + Extension.swift */; };
+		B3CA5BD429EC91380008E445 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA5BD329EC91380008E445 /* UIFont + Extension.swift */; };
+		B3CED9FE29F04D51005A1037 /* QRFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CED9FD29F04D51005A1037 /* QRFrameView.swift */; };
+		B3CEDA0229F07163005A1037 /* AmountSelectionAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA0129F07163005A1037 /* AmountSelectionAssembly.swift */; };
+		B3CEDA0429F0716C005A1037 /* AmountSelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA0329F0716C005A1037 /* AmountSelectionInteractor.swift */; };
+		B3CEDA0629F07174005A1037 /* AmountSelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA0529F07174005A1037 /* AmountSelectionPresenter.swift */; };
+		B3CEDA0829F0717B005A1037 /* AmountSelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA0729F0717B005A1037 /* AmountSelectionRouter.swift */; };
+		B3CEDA0A29F07185005A1037 /* AmountSelectionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA0929F07185005A1037 /* AmountSelectionProtocols.swift */; };
+		B3CEDA0C29F0718B005A1037 /* AmountSelectionViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA0B29F0718B005A1037 /* AmountSelectionViewControllers.swift */; };
+		B3CEDA0E29F07193005A1037 /* AmountSelectionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA0D29F07193005A1037 /* AmountSelectionModels.swift */; };
+		B3CEDA1029F0719B005A1037 /* AmountSelectionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA0F29F0719B005A1037 /* AmountSelectionWorker.swift */; };
+		B3CEDA1229F071C0005A1037 /* AmountSelectionNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA1129F071C0005A1037 /* AmountSelectionNetworkData.swift */; };
+		B3CEDA1429F071CB005A1037 /* AmountSelectionNetworkDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA1329F071CB005A1037 /* AmountSelectionNetworkDataProtocol.swift */; };
+		B3CEDA1629F071D3005A1037 /* AmountSelectionEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA1529F071D3005A1037 /* AmountSelectionEndpoint.swift */; };
+		B3CEDA1829F071DA005A1037 /* AmountSelectionNetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA1729F071DA005A1037 /* AmountSelectionNetworkModels.swift */; };
+		B3CEDA1A29F096D3005A1037 /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA1929F096D3005A1037 /* SmallCardView.swift */; };
+		B3CEDA1D29F0BF0E005A1037 /* PaymentDetailsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA1C29F0BF0E005A1037 /* PaymentDetailsAssembly.swift */; };
+		B3CEDA1F29F0BF1E005A1037 /* PaymentDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA1E29F0BF1E005A1037 /* PaymentDetailsInteractor.swift */; };
+		B3CEDA2129F0BF25005A1037 /* PaymentDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA2029F0BF25005A1037 /* PaymentDetailsPresenter.swift */; };
+		B3CEDA2329F0BF2F005A1037 /* PaymentDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA2229F0BF2F005A1037 /* PaymentDetailsRouter.swift */; };
+		B3CEDA2529F0BF3E005A1037 /* PaymentDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA2429F0BF3E005A1037 /* PaymentDetailsProtocols.swift */; };
+		B3CEDA2729F0BF46005A1037 /* PaymentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA2629F0BF46005A1037 /* PaymentDetailsViewController.swift */; };
+		B3CEDA2929F0BF4D005A1037 /* PaymentDetailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA2829F0BF4D005A1037 /* PaymentDetailsModels.swift */; };
+		B3CEDA2B29F0BF56005A1037 /* PaymentDetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA2A29F0BF56005A1037 /* PaymentDetailsWorker.swift */; };
+		B3CEDA2E29F0BF6D005A1037 /* PaymentDetailsNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA2D29F0BF6D005A1037 /* PaymentDetailsNetworkData.swift */; };
+		B3CEDA3029F0BF78005A1037 /* PaymentDetailsNetworkDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA2F29F0BF78005A1037 /* PaymentDetailsNetworkDataProtocol.swift */; };
+		B3CEDA3229F0BF84005A1037 /* PaymentDetailsNetworkEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA3129F0BF84005A1037 /* PaymentDetailsNetworkEndpoint.swift */; };
+		B3CEDA3429F0BF91005A1037 /* PaymentDetailsNetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEDA3329F0BF91005A1037 /* PaymentDetailsNetworkModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B352B1C829EC936C00748719 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		B352B1D729ECAF8200748719 /* StucashTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StucashTableView.swift; sourceTree = "<group>"; };
+		B352B1DB29EDC37A00748719 /* OperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationCell.swift; sourceTree = "<group>"; };
+		B352B1E229EE1F7E00748719 /* OperationsHistoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryAssembly.swift; sourceTree = "<group>"; };
+		B352B1E429EE1F8700748719 /* OperationsHistoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryInteractor.swift; sourceTree = "<group>"; };
+		B352B1E629EE1F9000748719 /* OperationsHistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryPresenter.swift; sourceTree = "<group>"; };
+		B352B1E829EE1F9800748719 /* OperationsHistoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryRouter.swift; sourceTree = "<group>"; };
+		B352B1EA29EE1FA000748719 /* OperationsHistoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryProtocols.swift; sourceTree = "<group>"; };
+		B352B1EC29EE1FAE00748719 /* OperationsHistoryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryWorker.swift; sourceTree = "<group>"; };
+		B352B1EE29EE1FB800748719 /* OperationsHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryViewController.swift; sourceTree = "<group>"; };
+		B352B1F029EE1FBF00748719 /* OperationsHistoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryModels.swift; sourceTree = "<group>"; };
+		B352B1F329EE209600748719 /* OperationsHistoryNetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryNetworkData.swift; sourceTree = "<group>"; };
+		B352B1F529EE20EB00748719 /* OperationsHistoryNetworkDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryNetworkDataProtocol.swift; sourceTree = "<group>"; };
+		B352B1F729EE211000748719 /* OperationsHistoryNetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryNetworkModels.swift; sourceTree = "<group>"; };
+		B352B1F929EE236300748719 /* OperationsHistoryNetworkEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsHistoryNetworkEndpoint.swift; sourceTree = "<group>"; };
+		B352B1FC29EEF1C100748719 /* PaymentsListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListAssembly.swift; sourceTree = "<group>"; };
+		B352B1FE29EEF1C900748719 /* PaymentsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListInteractor.swift; sourceTree = "<group>"; };
+		B352B20029EEF1D100748719 /* PaymentsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListPresenter.swift; sourceTree = "<group>"; };
+		B352B20229EEF1DA00748719 /* PaymentsListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListRouter.swift; sourceTree = "<group>"; };
+		B352B20429EEF1E600748719 /* PaymentsListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListProtocols.swift; sourceTree = "<group>"; };
+		B352B20629EEF1EE00748719 /* PaymentsListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListWorker.swift; sourceTree = "<group>"; };
+		B352B20829EEF1F900748719 /* PaymentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListViewController.swift; sourceTree = "<group>"; };
+		B352B20A29EEF20200748719 /* PaymentsListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListModels.swift; sourceTree = "<group>"; };
+		B352B20D29EEF38D00748719 /* PaymentsListNetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListNetworkData.swift; sourceTree = "<group>"; };
+		B352B20F29EEF39D00748719 /* PaymentsListNetworkDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListNetworkDataProtocol.swift; sourceTree = "<group>"; };
+		B352B21129EEF3A500748719 /* PaymentsListNetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListNetworkModels.swift; sourceTree = "<group>"; };
+		B352B21329EEF3B300748719 /* PaymentsListNetworkEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListNetworkEndpoint.swift; sourceTree = "<group>"; };
+		B352B21629EF406900748719 /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		B352B21929EF469A00748719 /* OperationDetailsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsAssembly.swift; sourceTree = "<group>"; };
+		B352B21B29EF46A100748719 /* OperationDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsInteractor.swift; sourceTree = "<group>"; };
+		B352B21D29EF46A800748719 /* OperationDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsPresenter.swift; sourceTree = "<group>"; };
+		B352B21F29EF46B100748719 /* OperationDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsRouter.swift; sourceTree = "<group>"; };
+		B352B22129EF46BD00748719 /* OperationDetailsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsProtocols.swift; sourceTree = "<group>"; };
+		B352B22329EF46CC00748719 /* OperationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsViewController.swift; sourceTree = "<group>"; };
+		B352B22529EF46D300748719 /* OperationDetailsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsModels.swift; sourceTree = "<group>"; };
+		B352B22829EF6DF200748719 /* OperationDetailsNetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsNetworkData.swift; sourceTree = "<group>"; };
+		B352B22A29EF6E2B00748719 /* OperationDetailsNetworkDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsNetworkDataProtocol.swift; sourceTree = "<group>"; };
+		B352B22C29EF6E5500748719 /* OperationDetailsNetworkEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsNetworkEndpoint.swift; sourceTree = "<group>"; };
+		B352B22E29EF6EA900748719 /* OperationDetailsNetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsNetworkModels.swift; sourceTree = "<group>"; };
+		B352B23029EF74E300748719 /* OperationDetailsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailsWorker.swift; sourceTree = "<group>"; };
+		B352B24F29EF8BAD00748719 /* QRReaderWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderWorker.swift; sourceTree = "<group>"; };
+		B352B25029EF8BAD00748719 /* QRReaderRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderRouter.swift; sourceTree = "<group>"; };
+		B352B25129EF8BAD00748719 /* QRReaderModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderModels.swift; sourceTree = "<group>"; };
+		B352B25229EF8BAD00748719 /* QRReaderProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderProtocols.swift; sourceTree = "<group>"; };
+		B352B25429EF8BAD00748719 /* QRReaderNetworkModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderNetworkModels.swift; sourceTree = "<group>"; };
+		B352B25529EF8BAD00748719 /* QRReaderNetworkEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderNetworkEndpoint.swift; sourceTree = "<group>"; };
+		B352B25629EF8BAD00748719 /* QRReaderNetworkData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderNetworkData.swift; sourceTree = "<group>"; };
+		B352B25729EF8BAD00748719 /* QRReaderNetworkDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderNetworkDataProtocol.swift; sourceTree = "<group>"; };
+		B352B25829EF8BAD00748719 /* QRReaderAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderAssembly.swift; sourceTree = "<group>"; };
+		B352B25929EF8BAD00748719 /* QRReaderPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderPresenter.swift; sourceTree = "<group>"; };
+		B352B25A29EF8BAD00748719 /* QRReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
+		B352B25B29EF8BAD00748719 /* QRReaderInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderInteractor.swift; sourceTree = "<group>"; };
 		B39B66C429EB574200DB37D0 /* Stucash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stucash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39B66C729EB574200DB37D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B39B66C929EB574200DB37D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B39B66CB29EB574200DB37D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B39B66CE29EB574200DB37D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B39B66D029EB574300DB37D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B39B66D329EB574300DB37D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B39B66D529EB574300DB37D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39B66E029EB5BE200DB37D0 /* CardShowcaseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseAssembly.swift; sourceTree = "<group>"; };
+		B39B66E229EB5BEC00DB37D0 /* CardShowcaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseInteractor.swift; sourceTree = "<group>"; };
+		B39B66E429EB5BF600DB37D0 /* CardShowcasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcasePresenter.swift; sourceTree = "<group>"; };
+		B39B66E629EB5C0500DB37D0 /* CardShowcaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseRouter.swift; sourceTree = "<group>"; };
+		B39B66E829EB5C0C00DB37D0 /* CardShowcaseProcotols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseProcotols.swift; sourceTree = "<group>"; };
+		B39B66EA29EB5C1600DB37D0 /* CardShowcaseWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseWorker.swift; sourceTree = "<group>"; };
+		B39B66EC29EB5C1E00DB37D0 /* CardShowcaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseViewController.swift; sourceTree = "<group>"; };
+		B39B66EE29EB5C2900DB37D0 /* CardShowcaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseModels.swift; sourceTree = "<group>"; };
+		B39B66F029EB602D00DB37D0 /* CardShowcaseNetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseNetworkData.swift; sourceTree = "<group>"; };
+		B39B66F229EB605600DB37D0 /* CardShowcaseNetworkDataProtocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardShowcaseNetworkDataProtocol .swift"; sourceTree = "<group>"; };
+		B39B66F429EB60B700DB37D0 /* CardShowcaseNetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseNetworkModels.swift; sourceTree = "<group>"; };
+		B39B66F629EB6BDE00DB37D0 /* CardShowcaseNetworkEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShowcaseNetworkEndpoint.swift; sourceTree = "<group>"; };
+		B39B66F929EB6D0700DB37D0 /* EndpointConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointConfig.swift; sourceTree = "<group>"; };
+		B3CA5BCB29EC5DB90008E445 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B3CA5BD029EC8E7C0008E445 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		B3CA5BD329EC91380008E445 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		B3CED9FD29F04D51005A1037 /* QRFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRFrameView.swift; sourceTree = "<group>"; };
+		B3CEDA0129F07163005A1037 /* AmountSelectionAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionAssembly.swift; sourceTree = "<group>"; };
+		B3CEDA0329F0716C005A1037 /* AmountSelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionInteractor.swift; sourceTree = "<group>"; };
+		B3CEDA0529F07174005A1037 /* AmountSelectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionPresenter.swift; sourceTree = "<group>"; };
+		B3CEDA0729F0717B005A1037 /* AmountSelectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionRouter.swift; sourceTree = "<group>"; };
+		B3CEDA0929F07185005A1037 /* AmountSelectionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionProtocols.swift; sourceTree = "<group>"; };
+		B3CEDA0B29F0718B005A1037 /* AmountSelectionViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionViewControllers.swift; sourceTree = "<group>"; };
+		B3CEDA0D29F07193005A1037 /* AmountSelectionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionModels.swift; sourceTree = "<group>"; };
+		B3CEDA0F29F0719B005A1037 /* AmountSelectionWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionWorker.swift; sourceTree = "<group>"; };
+		B3CEDA1129F071C0005A1037 /* AmountSelectionNetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionNetworkData.swift; sourceTree = "<group>"; };
+		B3CEDA1329F071CB005A1037 /* AmountSelectionNetworkDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionNetworkDataProtocol.swift; sourceTree = "<group>"; };
+		B3CEDA1529F071D3005A1037 /* AmountSelectionEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionEndpoint.swift; sourceTree = "<group>"; };
+		B3CEDA1729F071DA005A1037 /* AmountSelectionNetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionNetworkModels.swift; sourceTree = "<group>"; };
+		B3CEDA1929F096D3005A1037 /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
+		B3CEDA1C29F0BF0E005A1037 /* PaymentDetailsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsAssembly.swift; sourceTree = "<group>"; };
+		B3CEDA1E29F0BF1E005A1037 /* PaymentDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsInteractor.swift; sourceTree = "<group>"; };
+		B3CEDA2029F0BF25005A1037 /* PaymentDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsPresenter.swift; sourceTree = "<group>"; };
+		B3CEDA2229F0BF2F005A1037 /* PaymentDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsRouter.swift; sourceTree = "<group>"; };
+		B3CEDA2429F0BF3E005A1037 /* PaymentDetailsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsProtocols.swift; sourceTree = "<group>"; };
+		B3CEDA2629F0BF46005A1037 /* PaymentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsViewController.swift; sourceTree = "<group>"; };
+		B3CEDA2829F0BF4D005A1037 /* PaymentDetailsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsModels.swift; sourceTree = "<group>"; };
+		B3CEDA2A29F0BF56005A1037 /* PaymentDetailsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsWorker.swift; sourceTree = "<group>"; };
+		B3CEDA2D29F0BF6D005A1037 /* PaymentDetailsNetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsNetworkData.swift; sourceTree = "<group>"; };
+		B3CEDA2F29F0BF78005A1037 /* PaymentDetailsNetworkDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsNetworkDataProtocol.swift; sourceTree = "<group>"; };
+		B3CEDA3129F0BF84005A1037 /* PaymentDetailsNetworkEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsNetworkEndpoint.swift; sourceTree = "<group>"; };
+		B3CEDA3329F0BF91005A1037 /* PaymentDetailsNetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsNetworkModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +214,157 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39B66FE29EB7D5C00DB37D0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B352B1C229EC936C00748719 /* bebas-neue */ = {
+			isa = PBXGroup;
+			children = (
+				B352B1C829EC936C00748719 /* BebasNeue-Regular.ttf */,
+			);
+			path = "bebas-neue";
+			sourceTree = "<group>";
+		};
+		B352B1E129EE1F6800748719 /* OperationsHistory */ = {
+			isa = PBXGroup;
+			children = (
+				B352B23229EF7D0F00748719 /* Views */,
+				B352B1E229EE1F7E00748719 /* OperationsHistoryAssembly.swift */,
+				B352B1E429EE1F8700748719 /* OperationsHistoryInteractor.swift */,
+				B352B1E629EE1F9000748719 /* OperationsHistoryPresenter.swift */,
+				B352B1E829EE1F9800748719 /* OperationsHistoryRouter.swift */,
+				B352B1EA29EE1FA000748719 /* OperationsHistoryProtocols.swift */,
+				B352B1EC29EE1FAE00748719 /* OperationsHistoryWorker.swift */,
+				B352B1EE29EE1FB800748719 /* OperationsHistoryViewController.swift */,
+				B352B1F029EE1FBF00748719 /* OperationsHistoryModels.swift */,
+				B352B1F229EE1FEB00748719 /* Network */,
+			);
+			path = OperationsHistory;
+			sourceTree = "<group>";
+		};
+		B352B1F229EE1FEB00748719 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B352B1F329EE209600748719 /* OperationsHistoryNetworkData.swift */,
+				B352B1F529EE20EB00748719 /* OperationsHistoryNetworkDataProtocol.swift */,
+				B352B1F729EE211000748719 /* OperationsHistoryNetworkModels.swift */,
+				B352B1F929EE236300748719 /* OperationsHistoryNetworkEndpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B352B1FB29EEF18F00748719 /* PaymentsList */ = {
+			isa = PBXGroup;
+			children = (
+				B352B21529EF406000748719 /* Views */,
+				B352B1FC29EEF1C100748719 /* PaymentsListAssembly.swift */,
+				B352B1FE29EEF1C900748719 /* PaymentsListInteractor.swift */,
+				B352B20029EEF1D100748719 /* PaymentsListPresenter.swift */,
+				B352B20229EEF1DA00748719 /* PaymentsListRouter.swift */,
+				B352B20429EEF1E600748719 /* PaymentsListProtocols.swift */,
+				B352B20629EEF1EE00748719 /* PaymentsListWorker.swift */,
+				B352B20829EEF1F900748719 /* PaymentsListViewController.swift */,
+				B352B20A29EEF20200748719 /* PaymentsListModels.swift */,
+				B352B20C29EEF38300748719 /* Network */,
+			);
+			path = PaymentsList;
+			sourceTree = "<group>";
+		};
+		B352B20C29EEF38300748719 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B352B20D29EEF38D00748719 /* PaymentsListNetworkData.swift */,
+				B352B20F29EEF39D00748719 /* PaymentsListNetworkDataProtocol.swift */,
+				B352B21129EEF3A500748719 /* PaymentsListNetworkModels.swift */,
+				B352B21329EEF3B300748719 /* PaymentsListNetworkEndpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B352B21529EF406000748719 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B352B21629EF406900748719 /* PaymentCell.swift */,
+				B3CEDA1929F096D3005A1037 /* SmallCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B352B21829EF468300748719 /* OperationDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B352B21929EF469A00748719 /* OperationDetailsAssembly.swift */,
+				B352B21B29EF46A100748719 /* OperationDetailsInteractor.swift */,
+				B352B21D29EF46A800748719 /* OperationDetailsPresenter.swift */,
+				B352B21F29EF46B100748719 /* OperationDetailsRouter.swift */,
+				B352B22129EF46BD00748719 /* OperationDetailsProtocols.swift */,
+				B352B22329EF46CC00748719 /* OperationDetailsViewController.swift */,
+				B352B22529EF46D300748719 /* OperationDetailsModels.swift */,
+				B352B23029EF74E300748719 /* OperationDetailsWorker.swift */,
+				B352B22729EF6DE600748719 /* Network */,
+			);
+			path = OperationDetails;
+			sourceTree = "<group>";
+		};
+		B352B22729EF6DE600748719 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B352B22829EF6DF200748719 /* OperationDetailsNetworkData.swift */,
+				B352B22A29EF6E2B00748719 /* OperationDetailsNetworkDataProtocol.swift */,
+				B352B22C29EF6E5500748719 /* OperationDetailsNetworkEndpoint.swift */,
+				B352B22E29EF6EA900748719 /* OperationDetailsNetworkModels.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B352B23229EF7D0F00748719 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B352B1DB29EDC37A00748719 /* OperationCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B352B23329EF7D1500748719 /* TableViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B352B1D729ECAF8200748719 /* StucashTableView.swift */,
+			);
+			path = TableViewHelpers;
+			sourceTree = "<group>";
+		};
+		B352B24E29EF8BAD00748719 /* QrCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				B3CED9FC29F04D48005A1037 /* View */,
+				B352B25829EF8BAD00748719 /* QRReaderAssembly.swift */,
+				B352B25B29EF8BAD00748719 /* QRReaderInteractor.swift */,
+				B352B25929EF8BAD00748719 /* QRReaderPresenter.swift */,
+				B352B25029EF8BAD00748719 /* QRReaderRouter.swift */,
+				B352B25229EF8BAD00748719 /* QRReaderProtocols.swift */,
+				B352B25A29EF8BAD00748719 /* QRReaderViewController.swift */,
+				B352B25129EF8BAD00748719 /* QRReaderModels.swift */,
+				B352B24F29EF8BAD00748719 /* QRReaderWorker.swift */,
+				B352B25329EF8BAD00748719 /* Network */,
+			);
+			path = QrCodeReader;
+			sourceTree = "<group>";
+		};
+		B352B25329EF8BAD00748719 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B352B25629EF8BAD00748719 /* QRReaderNetworkData.swift */,
+				B352B25729EF8BAD00748719 /* QRReaderNetworkDataProtocol.swift */,
+				B352B25529EF8BAD00748719 /* QRReaderNetworkEndpoint.swift */,
+				B352B25429EF8BAD00748719 /* QRReaderNetworkModels.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		B39B66BB29EB574200DB37D0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +384,162 @@
 		B39B66C629EB574200DB37D0 /* Stucash */ = {
 			isa = PBXGroup;
 			children = (
+				B39B66FB29EB6D1200DB37D0 /* Utility */,
+				B39B66DB29EB575100DB37D0 /* Screens */,
 				B39B66C729EB574200DB37D0 /* AppDelegate.swift */,
 				B39B66C929EB574200DB37D0 /* SceneDelegate.swift */,
-				B39B66CB29EB574200DB37D0 /* ViewController.swift */,
-				B39B66CD29EB574200DB37D0 /* Main.storyboard */,
+				B352B1C229EC936C00748719 /* bebas-neue */,
 				B39B66D029EB574300DB37D0 /* Assets.xcassets */,
-				B39B66D229EB574300DB37D0 /* LaunchScreen.storyboard */,
 				B39B66D529EB574300DB37D0 /* Info.plist */,
 			);
 			path = Stucash;
+			sourceTree = "<group>";
+		};
+		B39B66DB29EB575100DB37D0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B3CED9FF29F07150005A1037 /* AmountSelection */,
+				B352B24E29EF8BAD00748719 /* QrCodeReader */,
+				B3CEDA1B29F0AE91005A1037 /* PaymentDetails */,
+				B352B1FB29EEF18F00748719 /* PaymentsList */,
+				B352B21829EF468300748719 /* OperationDetails */,
+				B352B1E129EE1F6800748719 /* OperationsHistory */,
+				B39B66DE29EB57B800DB37D0 /* CardShowcase */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B39B66DE29EB57B800DB37D0 /* CardShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				B3CA5BCA29EC5DAC0008E445 /* Views */,
+				B39B66E029EB5BE200DB37D0 /* CardShowcaseAssembly.swift */,
+				B39B66E229EB5BEC00DB37D0 /* CardShowcaseInteractor.swift */,
+				B39B66E429EB5BF600DB37D0 /* CardShowcasePresenter.swift */,
+				B39B66E629EB5C0500DB37D0 /* CardShowcaseRouter.swift */,
+				B39B66E829EB5C0C00DB37D0 /* CardShowcaseProcotols.swift */,
+				B39B66EA29EB5C1600DB37D0 /* CardShowcaseWorker.swift */,
+				B39B66EC29EB5C1E00DB37D0 /* CardShowcaseViewController.swift */,
+				B39B66EE29EB5C2900DB37D0 /* CardShowcaseModels.swift */,
+				B39B66DF29EB5BCC00DB37D0 /* Network */,
+			);
+			path = CardShowcase;
+			sourceTree = "<group>";
+		};
+		B39B66DF29EB5BCC00DB37D0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B39B66F029EB602D00DB37D0 /* CardShowcaseNetworkData.swift */,
+				B39B66F229EB605600DB37D0 /* CardShowcaseNetworkDataProtocol .swift */,
+				B39B66F429EB60B700DB37D0 /* CardShowcaseNetworkModels.swift */,
+				B39B66F629EB6BDE00DB37D0 /* CardShowcaseNetworkEndpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B39B66F829EB6CEE00DB37D0 /* EndpointHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B39B66F929EB6D0700DB37D0 /* EndpointConfig.swift */,
+			);
+			path = EndpointHelpers;
+			sourceTree = "<group>";
+		};
+		B39B66FB29EB6D1200DB37D0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B352B23329EF7D1500748719 /* TableViewHelpers */,
+				B3CA5BD229EC912F0008E445 /* FontHelpers */,
+				B3CA5BCF29EC8E700008E445 /* ColorHelpers */,
+				B39B66F829EB6CEE00DB37D0 /* EndpointHelpers */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B3CA5BCA29EC5DAC0008E445 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3CA5BCB29EC5DB90008E445 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3CA5BCF29EC8E700008E445 /* ColorHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B3CA5BD029EC8E7C0008E445 /* UIColor + Extension.swift */,
+			);
+			path = ColorHelpers;
+			sourceTree = "<group>";
+		};
+		B3CA5BD229EC912F0008E445 /* FontHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B3CA5BD329EC91380008E445 /* UIFont + Extension.swift */,
+			);
+			path = FontHelpers;
+			sourceTree = "<group>";
+		};
+		B3CED9FC29F04D48005A1037 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3CED9FD29F04D51005A1037 /* QRFrameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3CED9FF29F07150005A1037 /* AmountSelection */ = {
+			isa = PBXGroup;
+			children = (
+				B3CEDA0129F07163005A1037 /* AmountSelectionAssembly.swift */,
+				B3CEDA0329F0716C005A1037 /* AmountSelectionInteractor.swift */,
+				B3CEDA0529F07174005A1037 /* AmountSelectionPresenter.swift */,
+				B3CEDA0729F0717B005A1037 /* AmountSelectionRouter.swift */,
+				B3CEDA0929F07185005A1037 /* AmountSelectionProtocols.swift */,
+				B3CEDA0B29F0718B005A1037 /* AmountSelectionViewControllers.swift */,
+				B3CEDA0D29F07193005A1037 /* AmountSelectionModels.swift */,
+				B3CEDA0F29F0719B005A1037 /* AmountSelectionWorker.swift */,
+				B3CEDA0029F07156005A1037 /* Network */,
+			);
+			path = AmountSelection;
+			sourceTree = "<group>";
+		};
+		B3CEDA0029F07156005A1037 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B3CEDA1129F071C0005A1037 /* AmountSelectionNetworkData.swift */,
+				B3CEDA1329F071CB005A1037 /* AmountSelectionNetworkDataProtocol.swift */,
+				B3CEDA1529F071D3005A1037 /* AmountSelectionEndpoint.swift */,
+				B3CEDA1729F071DA005A1037 /* AmountSelectionNetworkModels.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B3CEDA1B29F0AE91005A1037 /* PaymentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B3CEDA1C29F0BF0E005A1037 /* PaymentDetailsAssembly.swift */,
+				B3CEDA1E29F0BF1E005A1037 /* PaymentDetailsInteractor.swift */,
+				B3CEDA2029F0BF25005A1037 /* PaymentDetailsPresenter.swift */,
+				B3CEDA2229F0BF2F005A1037 /* PaymentDetailsRouter.swift */,
+				B3CEDA2429F0BF3E005A1037 /* PaymentDetailsProtocols.swift */,
+				B3CEDA2629F0BF46005A1037 /* PaymentDetailsViewController.swift */,
+				B3CEDA2829F0BF4D005A1037 /* PaymentDetailsModels.swift */,
+				B3CEDA2A29F0BF56005A1037 /* PaymentDetailsWorker.swift */,
+				B3CEDA2C29F0BF58005A1037 /* Network */,
+			);
+			path = PaymentDetails;
+			sourceTree = "<group>";
+		};
+		B3CEDA2C29F0BF58005A1037 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B3CEDA2D29F0BF6D005A1037 /* PaymentDetailsNetworkData.swift */,
+				B3CEDA2F29F0BF78005A1037 /* PaymentDetailsNetworkDataProtocol.swift */,
+				B3CEDA3129F0BF84005A1037 /* PaymentDetailsNetworkEndpoint.swift */,
+				B3CEDA3329F0BF91005A1037 /* PaymentDetailsNetworkModels.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +558,9 @@
 			dependencies = (
 			);
 			name = Stucash;
+			packageProductDependencies = (
+				B39B66FD29EB7D5C00DB37D0 /* Alamofire */,
+			);
 			productName = Stucash;
 			productReference = B39B66C429EB574200DB37D0 /* Stucash.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +589,9 @@
 				Base,
 			);
 			mainGroup = B39B66BB29EB574200DB37D0;
+			packageReferences = (
+				B39B66FC29EB7D5C00DB37D0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = B39B66C529EB574200DB37D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +606,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39B66D429EB574300DB37D0 /* LaunchScreen.storyboard in Resources */,
 				B39B66D129EB574300DB37D0 /* Assets.xcassets in Resources */,
-				B39B66CF29EB574200DB37D0 /* Main.storyboard in Resources */,
+				B352B1D229EC936C00748719 /* BebasNeue-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +618,105 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39B66CC29EB574200DB37D0 /* ViewController.swift in Sources */,
+				B3CEDA0C29F0718B005A1037 /* AmountSelectionViewControllers.swift in Sources */,
+				B352B26329EF8BAD00748719 /* QRReaderNetworkDataProtocol.swift in Sources */,
+				B3CA5BD429EC91380008E445 /* UIFont + Extension.swift in Sources */,
+				B352B22229EF46BD00748719 /* OperationDetailsProtocols.swift in Sources */,
+				B3CEDA2129F0BF25005A1037 /* PaymentDetailsPresenter.swift in Sources */,
+				B3CEDA1029F0719B005A1037 /* AmountSelectionWorker.swift in Sources */,
+				B3CEDA0E29F07193005A1037 /* AmountSelectionModels.swift in Sources */,
+				B352B1FF29EEF1C900748719 /* PaymentsListInteractor.swift in Sources */,
+				B352B21C29EF46A100748719 /* OperationDetailsInteractor.swift in Sources */,
+				B352B20929EEF1F900748719 /* PaymentsListViewController.swift in Sources */,
+				B352B25F29EF8BAD00748719 /* QRReaderProtocols.swift in Sources */,
+				B352B25E29EF8BAD00748719 /* QRReaderModels.swift in Sources */,
+				B3CEDA1D29F0BF0E005A1037 /* PaymentDetailsAssembly.swift in Sources */,
+				B3CEDA0A29F07185005A1037 /* AmountSelectionProtocols.swift in Sources */,
+				B352B1DC29EDC37A00748719 /* OperationCell.swift in Sources */,
+				B3CEDA0829F0717B005A1037 /* AmountSelectionRouter.swift in Sources */,
+				B39B66EB29EB5C1600DB37D0 /* CardShowcaseWorker.swift in Sources */,
+				B39B66F529EB60B700DB37D0 /* CardShowcaseNetworkModels.swift in Sources */,
+				B3CEDA1A29F096D3005A1037 /* SmallCardView.swift in Sources */,
+				B3CEDA0629F07174005A1037 /* AmountSelectionPresenter.swift in Sources */,
+				B3CEDA3029F0BF78005A1037 /* PaymentDetailsNetworkDataProtocol.swift in Sources */,
+				B352B1E729EE1F9000748719 /* OperationsHistoryPresenter.swift in Sources */,
+				B352B26729EF8BAD00748719 /* QRReaderInteractor.swift in Sources */,
+				B3CEDA1629F071D3005A1037 /* AmountSelectionEndpoint.swift in Sources */,
+				B3CEDA2929F0BF4D005A1037 /* PaymentDetailsModels.swift in Sources */,
+				B3CEDA3229F0BF84005A1037 /* PaymentDetailsNetworkEndpoint.swift in Sources */,
+				B39B66EF29EB5C2900DB37D0 /* CardShowcaseModels.swift in Sources */,
+				B352B25C29EF8BAD00748719 /* QRReaderWorker.swift in Sources */,
+				B352B22F29EF6EA900748719 /* OperationDetailsNetworkModels.swift in Sources */,
+				B352B1ED29EE1FAE00748719 /* OperationsHistoryWorker.swift in Sources */,
+				B3CED9FE29F04D51005A1037 /* QRFrameView.swift in Sources */,
+				B3CEDA1F29F0BF1E005A1037 /* PaymentDetailsInteractor.swift in Sources */,
+				B352B1F629EE20EB00748719 /* OperationsHistoryNetworkDataProtocol.swift in Sources */,
+				B352B20329EEF1DA00748719 /* PaymentsListRouter.swift in Sources */,
+				B3CEDA2329F0BF2F005A1037 /* PaymentDetailsRouter.swift in Sources */,
+				B352B1FD29EEF1C100748719 /* PaymentsListAssembly.swift in Sources */,
+				B3CEDA2E29F0BF6D005A1037 /* PaymentDetailsNetworkData.swift in Sources */,
+				B39B66E129EB5BE200DB37D0 /* CardShowcaseAssembly.swift in Sources */,
+				B352B21029EEF39D00748719 /* PaymentsListNetworkDataProtocol.swift in Sources */,
+				B352B26229EF8BAD00748719 /* QRReaderNetworkData.swift in Sources */,
+				B39B66E529EB5BF600DB37D0 /* CardShowcasePresenter.swift in Sources */,
+				B3CEDA1829F071DA005A1037 /* AmountSelectionNetworkModels.swift in Sources */,
+				B352B1EB29EE1FA000748719 /* OperationsHistoryProtocols.swift in Sources */,
+				B3CEDA2B29F0BF56005A1037 /* PaymentDetailsWorker.swift in Sources */,
+				B39B66E929EB5C0C00DB37D0 /* CardShowcaseProcotols.swift in Sources */,
+				B3CEDA1229F071C0005A1037 /* AmountSelectionNetworkData.swift in Sources */,
+				B39B66FA29EB6D0700DB37D0 /* EndpointConfig.swift in Sources */,
+				B3CEDA0429F0716C005A1037 /* AmountSelectionInteractor.swift in Sources */,
+				B352B26129EF8BAD00748719 /* QRReaderNetworkEndpoint.swift in Sources */,
+				B3CEDA1429F071CB005A1037 /* AmountSelectionNetworkDataProtocol.swift in Sources */,
+				B352B1F429EE209600748719 /* OperationsHistoryNetworkData.swift in Sources */,
+				B352B26629EF8BAD00748719 /* QRReaderViewController.swift in Sources */,
+				B352B20E29EEF38D00748719 /* PaymentsListNetworkData.swift in Sources */,
 				B39B66C829EB574200DB37D0 /* AppDelegate.swift in Sources */,
+				B3CEDA2529F0BF3E005A1037 /* PaymentDetailsProtocols.swift in Sources */,
+				B352B20529EEF1E600748719 /* PaymentsListProtocols.swift in Sources */,
+				B352B1FA29EE236300748719 /* OperationsHistoryNetworkEndpoint.swift in Sources */,
+				B352B21E29EF46A800748719 /* OperationDetailsPresenter.swift in Sources */,
+				B352B22B29EF6E2B00748719 /* OperationDetailsNetworkDataProtocol.swift in Sources */,
+				B3CA5BD129EC8E7C0008E445 /* UIColor + Extension.swift in Sources */,
+				B39B66F129EB602D00DB37D0 /* CardShowcaseNetworkData.swift in Sources */,
+				B352B1F129EE1FBF00748719 /* OperationsHistoryModels.swift in Sources */,
+				B39B66E329EB5BEC00DB37D0 /* CardShowcaseInteractor.swift in Sources */,
+				B352B20B29EEF20200748719 /* PaymentsListModels.swift in Sources */,
+				B352B22D29EF6E5500748719 /* OperationDetailsNetworkEndpoint.swift in Sources */,
+				B39B66F729EB6BDE00DB37D0 /* CardShowcaseNetworkEndpoint.swift in Sources */,
+				B352B21A29EF469A00748719 /* OperationDetailsAssembly.swift in Sources */,
+				B39B66F329EB605600DB37D0 /* CardShowcaseNetworkDataProtocol .swift in Sources */,
+				B352B1F829EE211000748719 /* OperationsHistoryNetworkModels.swift in Sources */,
+				B352B22429EF46CC00748719 /* OperationDetailsViewController.swift in Sources */,
+				B352B21229EEF3A500748719 /* PaymentsListNetworkModels.swift in Sources */,
+				B352B25D29EF8BAD00748719 /* QRReaderRouter.swift in Sources */,
+				B352B1E929EE1F9800748719 /* OperationsHistoryRouter.swift in Sources */,
 				B39B66CA29EB574200DB37D0 /* SceneDelegate.swift in Sources */,
+				B39B66ED29EB5C1E00DB37D0 /* CardShowcaseViewController.swift in Sources */,
+				B352B1E329EE1F7E00748719 /* OperationsHistoryAssembly.swift in Sources */,
+				B3CA5BCC29EC5DB90008E445 /* CardView.swift in Sources */,
+				B352B20129EEF1D100748719 /* PaymentsListPresenter.swift in Sources */,
+				B352B26429EF8BAD00748719 /* QRReaderAssembly.swift in Sources */,
+				B3CEDA0229F07163005A1037 /* AmountSelectionAssembly.swift in Sources */,
+				B352B22929EF6DF200748719 /* OperationDetailsNetworkData.swift in Sources */,
+				B352B26529EF8BAD00748719 /* QRReaderPresenter.swift in Sources */,
+				B352B1EF29EE1FB800748719 /* OperationsHistoryViewController.swift in Sources */,
+				B352B22629EF46D300748719 /* OperationDetailsModels.swift in Sources */,
+				B352B21729EF406900748719 /* PaymentCell.swift in Sources */,
+				B352B26029EF8BAD00748719 /* QRReaderNetworkModels.swift in Sources */,
+				B352B20729EEF1EE00748719 /* PaymentsListWorker.swift in Sources */,
+				B352B22029EF46B100748719 /* OperationDetailsRouter.swift in Sources */,
+				B352B21429EEF3B300748719 /* PaymentsListNetworkEndpoint.swift in Sources */,
+				B352B23129EF74E300748719 /* OperationDetailsWorker.swift in Sources */,
+				B39B66E729EB5C0500DB37D0 /* CardShowcaseRouter.swift in Sources */,
+				B352B1D829ECAF8200748719 /* StucashTableView.swift in Sources */,
+				B352B1E529EE1F8700748719 /* OperationsHistoryInteractor.swift in Sources */,
+				B3CEDA3429F0BF91005A1037 /* PaymentDetailsNetworkModels.swift in Sources */,
+				B3CEDA2729F0BF46005A1037 /* PaymentDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B39B66CD29EB574200DB37D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B39B66CE29EB574200DB37D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B39B66D229EB574300DB37D0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B39B66D329EB574300DB37D0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B39B66D629EB574300DB37D0 /* Debug */ = {
@@ -216,7 +769,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +823,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +845,6 @@
 				INFOPLIST_FILE = Stucash/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +872,6 @@
 				INFOPLIST_FILE = Stucash/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +909,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B39B66FC29EB7D5C00DB37D0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B39B66FD29EB7D5C00DB37D0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B39B66FC29EB7D5C00DB37D0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B39B66BC29EB574200DB37D0 /* Project object */;
 }
